@@ -12,7 +12,7 @@ const obj = {
   },
 };
 
-console.log(obj?.c?.cd, obj?.f?.fe);
+console.log(obj?.c?.cd);
 
 if (module.hot) {
   module.hot.accept();
